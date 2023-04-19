@@ -154,7 +154,7 @@ void draw() {
     textAlign(LEFT, TOP);
     text(labels_sensors_digital[i]+data_sensors_digital[i], width/2, temp_pos_y);
 
-    // show values as bar (raw and smoothed data)
+    // show values as rect (not filled or filled)
     if (data_sensors_digital[i]==0) {
       noFill();
       stroke(255);
