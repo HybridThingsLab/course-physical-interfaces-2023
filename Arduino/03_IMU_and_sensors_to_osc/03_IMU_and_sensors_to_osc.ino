@@ -14,7 +14,7 @@ const IPAddress gateway(192, 168, 1, 1);
 const IPAddress subnet(255, 255, 255, 0);
 
 // for ArduinoOSC
-const char* host = "192.168.1.101";  // IP of Laptop (change here)
+const char* host = "192.168.1.102";  // IP of Laptop (change here)
 const int recv_port = 9998;
 const int send_port = 9999;
 
@@ -31,18 +31,28 @@ long lastTime;
 long lastInterval;
 
 // sensors
-int sensorPin1 = A0;
-int sensorPin2 = A6;
-int sensorValue1 = 0;
-int sensorValue2 = 0;
 
-// sensor
+// analog
+int analogPin1 = A0;
+int analogPin2 = A6;
+int analogValue1 = 0;
+int analogValue2 = 0;
+
+// digital
+int digitalPin1 = 2;
+int digitalPin2 = 4;
+int digitalValue1 = 0;
+int digitalValue2 = 0;
 
 // setup
 void setup() {
 
   // init serial connection
   Serial.begin(57600);
+
+  // pin modes
+  pinMode(digitalPin1, INPUT);  // just needs to be done if digital input
+  pinMode(digitalPin2, INPUT);  // just needs to be done if digital input
 
   // init IMU (inertial measurement unit)
   if (!IMU.begin()) {
@@ -73,7 +83,11 @@ void setup() {
   OscWiFi.publish(host, send_port, "/imu", complementaryRoll, complementaryPitch, complementaryYaw)
     ->setIntervalMsec(10.f);
 
-  OscWiFi.publish(host, send_port, "/sensors", sensorValue1, sensorValue2)
+  // sensor data
+  OscWiFi.publish(host, send_port, "/sensors_analog", analogValue1, analogValue2)
+    ->setIntervalMsec(10.f);
+
+  OscWiFi.publish(host, send_port, "/sensors_digital", digitalValue1, digitalValue2)
     ->setIntervalMsec(10.f);
 }
 
@@ -94,9 +108,19 @@ void loop() {
     doCalculations();
   }
 
-  // get data sensor 1 and 2
-  sensorValue1 = analogRead(sensorPin1);
-  sensorValue2 = analogRead(sensorPin2);
+  // get data analog pins
+  analogValue1 = analogRead(analogPin1);  // values between 0-1023
+  analogValue2 = analogRead(analogPin2);  // values between 0-1023
+
+  // get data digital pins
+  digitalValue1 = digitalRead(digitalPin1);  // value 0 or 1
+  digitalValue2 = digitalRead(digitalPin2);  // value 0 or 1
+
+  // show values via serial monitor (debugging) > uncomment
+  // Serial.println(analogValue1);
+  // Serial.println(analogValue2);
+  // Serial.println(digitalValue1);
+  // Serial.println(digitalValue2);
 }
 
 ///////////////////

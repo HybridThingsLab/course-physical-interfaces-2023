@@ -1,5 +1,5 @@
 // libraries
-// in "import Library > Manage Libraries" search for oscP5
+// in "import Library > Manage Libraries" search for "oscP5"
 import oscP5.*;
 import netP5.*;
 
@@ -13,8 +13,11 @@ int recv_port = 9999;
 int send_port = 9998;
 
 // data
-int sensorValue1 = 0;
-int sensorValue2 = 0;
+int analogValue1 = 0;
+int analogValue2 = 0;
+
+int digitalValue1 = 0;
+int digitalValue2 = 0;
 
 
 // setup
@@ -40,7 +43,8 @@ void setup() {
   remoteLocation = new NetAddress("192.168.1.201", send_port);
 
   // listen to different messages
-  oscP5.plug(this, "sensors", "/sensors");
+  oscP5.plug(this, "sensors_analog", "/sensors_analog");
+  oscP5.plug(this, "sensors_digital", "/sensors_digital");
 }
 
 
@@ -53,13 +57,20 @@ void draw() {
   // show data
   fill(255);
   noStroke();
-  text(sensorValue1, 32, 32);
-  text(sensorValue2, 32, 64);
+  text(analogValue1, 32, 32);
+  text(analogValue2, 32, 64);
+  text(digitalValue1, 32, 96);
+  text(digitalValue2, 32, 128);
 }
 
 // OSC
-public void sensors(int v1, int v2) {
+public void sensors_analog(int v1, int v2) {
   // data
-  sensorValue1 = v1;
-  sensorValue2 = v2;
+  analogValue1 = v1;
+  analogValue2 = v2;
+}
+public void sensors_digital(int v1, int v2) {
+  // data
+  digitalValue1 = v1;
+  digitalValue2 = v2;
 }
