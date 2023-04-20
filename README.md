@@ -5,6 +5,9 @@ HS Augsburg, Prof. Andreas Muxel
 * parts available in our lab: https://github.com/HybridThingsLab/protobase/wiki/Seeed-Grove-System 
 * Grove Ultrasonic Ranger (tutorial & library), https://wiki.seeedstudio.com/Grove-Ultrasonic_Ranger/, see also "/Arduino/01_sensors_to_osc"
 
+# Flex Sensor
+* tutorial: https://learn.sparkfun.com/tutorials/flex-sensor-hookup-guide/all
+
 # MIDI
 * Mac: activate MIDI Port in system settings, https://support.apple.com/de-de/guide/audio-midi-setup/ams1013/mac 
 * PC: install loopMidi: http://www.tobias-erichsen.de/software/loopmidi.html 
