@@ -7,6 +7,7 @@ HS Augsburg, Prof. Andreas Muxel
 
 # Flex Sensor
 * tutorial: https://learn.sparkfun.com/tutorials/flex-sensor-hookup-guide/all
+![image](https://user-images.githubusercontent.com/36045885/233471075-5a0176bb-7b0a-4f00-b9f6-65b112808a23.png)
 
 # MIDI
 * Mac: activate MIDI Port in system settings, https://support.apple.com/de-de/guide/audio-midi-setup/ams1013/mac 
@@ -15,9 +16,9 @@ HS Augsburg, Prof. Andreas Muxel
 # Helm
 * download: https://tytel.org/helm/
 * click on logo for settings
-* <img width="329" alt="image" src="https://user-images.githubusercontent.com/36045885/233443943-9adf69aa-22de-45bf-a8b2-3b7f00bbc60e.png">
-* set "VEL TRACK" to 100%, screenshot
-* <img width="317" alt="image" src="https://user-images.githubusercontent.com/36045885/233444014-e31a2e09-8edb-4c3d-8833-3b683cb04cf4.png">
+* set "VEL TRACK" to 100% 
+<img width="329" alt="image" src="https://user-images.githubusercontent.com/36045885/233443943-9adf69aa-22de-45bf-a8b2-3b7f00bbc60e.png">
+<img width="317" alt="image" src="https://user-images.githubusercontent.com/36045885/233444014-e31a2e09-8edb-4c3d-8833-3b683cb04cf4.png">
 
 # Tutorials Helm
 * https://steemit.com/music/@buckydurddle/helm-video-tutorials-beginner-s-guide
