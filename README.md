@@ -1,6 +1,9 @@
 # Physical Interfaces / summer term 2023
 HS Augsburg, Prof. Andreas Muxel 
 
+# Arduino Nano 33 IoT
+* https://store.arduino.cc/products/arduino-nano-33-iot
+
 # Seeed Grove System
 * parts available in Prototyping Lab: https://github.com/HybridThingsLab/protobase/wiki/Seeed-Grove-System 
 * Grove Ultrasonic Ranger (tutorial & library), https://wiki.seeedstudio.com/Grove-Ultrasonic_Ranger/, see also "/Arduino/01_sensors_to_osc"
