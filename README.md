@@ -3,7 +3,7 @@ HS Augsburg, Prof. Andreas Muxel
 
 # Seeed Grove System
 * parts available in our lab: https://github.com/HybridThingsLab/protobase/wiki/Seeed-Grove-System 
-* Grove Ultrasonic Ranger (tutorial & library), https://wiki.seeedstudio.com/Grove-Ultrasonic_Ranger/ 
+* Grove Ultrasonic Ranger (tutorial & library), https://wiki.seeedstudio.com/Grove-Ultrasonic_Ranger/, see also "/Arduino/01_sensors_to_osc"
 
 # MIDI
 * Mac: activate MIDI Port in system settings, https://support.apple.com/de-de/guide/audio-midi-setup/ams1013/mac 

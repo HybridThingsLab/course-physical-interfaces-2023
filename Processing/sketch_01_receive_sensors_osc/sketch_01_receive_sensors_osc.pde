@@ -19,6 +19,7 @@ int analogValue2 = 0;
 int digitalValue1 = 0;
 int digitalValue2 = 0;
 
+int distance = 0;
 
 // setup
 void setup() {
@@ -45,6 +46,7 @@ void setup() {
   // listen to different messages
   oscP5.plug(this, "sensors_analog", "/sensors_analog");
   oscP5.plug(this, "sensors_digital", "/sensors_digital");
+  oscP5.plug(this, "distance", "/distance");
 }
 
 
@@ -57,10 +59,12 @@ void draw() {
   // show data
   fill(255);
   noStroke();
-  text(analogValue1, 32, 32);
-  text(analogValue2, 32, 64);
-  text(digitalValue1, 32, 96);
-  text(digitalValue2, 32, 128);
+  text("sensor analog 1: "+analogValue1, 32, 32);
+  text("sensor analog 3: "+analogValue2, 32, 64);
+  text("sensor digital 1: "+digitalValue1, 32, 96);
+  text("sensor digital 2: "+digitalValue2, 32, 128);
+  
+  text("distance: "+distance, 32, 160);
 }
 
 // OSC
@@ -73,4 +77,8 @@ public void sensors_digital(int v1, int v2) {
   // data
   digitalValue1 = v1;
   digitalValue2 = v2;
+}
+public void distance(int v1) {
+  // data
+  distance = v1;
 }

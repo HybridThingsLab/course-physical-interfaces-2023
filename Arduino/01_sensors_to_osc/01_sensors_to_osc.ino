@@ -2,6 +2,13 @@
 // https://github.com/hideakitai/ArduinoOSC
 #include <ArduinoOSCWiFi.h>
 
+// Seeed Grove Ultrasonic Ranger
+// https://wiki.seeedstudio.com/Grove-Ultrasonic_Ranger/
+// https://github.com/Seeed-Studio/Seeed_Arduino_UltrasonicRanger/archive/master.zip
+// https://wiki.seeedstudio.com/Upload_Code/
+#include "Ultrasonic.h"
+
+
 
 // WiFi stuff
 const char* ssid = "maschinenraum";
@@ -18,16 +25,21 @@ const int send_port = 9999;
 // sensors
 
 // analog
-int analogPin1 = A0;
-int analogPin2 = A6;
+int analogPin1 = 0; // analog sensor 1 on PIN A5
+int analogPin2 = 6; // analog sensor 2 on PIN A6
 int analogValue1 = 0;
 int analogValue2 = 0;
 
 // digital
-int digitalPin1 = 2;
-int digitalPin2 = 4;
+int digitalPin1 = 2; // digital sensor 1 on PIN D2
+int digitalPin2 = 4; // digital sensor 2 on PIN D2
 int digitalValue1 = 0;
 int digitalValue2 = 0;
+
+// init ultrasonic ranger (distance sensor) Otherwise deactivate first line with comment!
+// Ultrasonic ultrasonic(6); // ultrasonic ranger on PIN D6
+int distance = 0;  // distance in cm
+
 
 // setup
 void setup() {
@@ -63,6 +75,9 @@ void setup() {
 
   OscWiFi.publish(host, send_port, "/sensors_digital", digitalValue1, digitalValue2)
     ->setIntervalMsec(10.f);
+
+  OscWiFi.publish(host, send_port, "/distance", distance)
+    ->setIntervalMsec(10.f);
 }
 
 
@@ -86,4 +101,11 @@ void loop() {
   // Serial.println(analogValue2);
   // Serial.println(digitalValue1);
   // Serial.println(digitalValue2);
+
+  // get distance with ultrasonic ranger, just if connected! Otherwise deactivate next line with comment!
+  // distance = ultrasonic.MeasureInCentimeters();
+
+  // show disance via serial monitor
+  //Serial.println(distance);
+
 }

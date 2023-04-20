@@ -19,7 +19,7 @@ int send_port = 9998;
 // imu (roll, pitch, yaw)
 float[] data_imu = new float[3];
 float[] smooth_data_imu = new float[3];
-float smooth_factor_imu = 0.1;
+float smooth_factor_imu = 0.9;
 
 // viz data
 

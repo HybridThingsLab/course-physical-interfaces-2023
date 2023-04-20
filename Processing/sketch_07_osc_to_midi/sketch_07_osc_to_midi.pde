@@ -3,6 +3,11 @@
 import oscP5.*;
 import netP5.*;
 
+// libraries
+// in "import Library > Manage Libraries" search for "The MidiBus"
+import themidibus.*; //Import the library
+
+
 // font
 PFont font;
 
@@ -11,6 +16,13 @@ OscP5 oscP5;
 NetAddress remoteLocation;
 int recv_port = 9999;
 int send_port = 9998;
+
+// midi bus
+MidiBus midi_bus;
+int channel = 0;
+
+Boolean note1_played = false;
+Boolean note2_played = false;
 
 // imu (roll, pitch, yaw)
 float[] data_imu = new float[3];
@@ -88,6 +100,14 @@ void setup() {
   oscP5.plug(this, "sensors_analog", "/sensors_analog");
   oscP5.plug(this, "sensors_digital", "/sensors_digital");
   oscP5.plug(this, "distance", "/distance");
+
+  // list all available Midi devices
+  MidiBus.list();
+
+  // init midi bus
+  //                    Parent In Out
+  //                      |    |   |
+  midi_bus = new MidiBus(this, -1, 2); // -1 means no input, second number is ID from list in console
 }
 
 
@@ -96,6 +116,48 @@ void draw() {
 
   // background (color depends on value sensor digital)
   background(0);
+
+  // MIDI
+
+  // send note
+  int pitch1 = 40; // midi note 1
+  int pitch2 = 56; // midi note 2
+  int velocity = 127;
+
+  // note 1
+  if (data_sensors_digital[0] == 1) {
+    // note on (just one time)
+    if (note1_played == false) {
+      midi_bus.sendNoteOn(channel, pitch1, velocity);
+      note1_played = true;
+    }
+  }
+  if (data_sensors_digital[0] == 0) {
+    // note off
+    midi_bus.sendNoteOff(channel, pitch1, 0);
+    note1_played = false;
+  }
+
+  // note 2
+  if (data_sensors_digital[1] == 1) {
+    // note on (just one time)
+    if (note2_played == false) {
+      midi_bus.sendNoteOn(channel, pitch2, velocity);
+      note2_played = true;
+    }
+  }
+  if (data_sensors_digital[1] == 0) {
+    // note off
+    midi_bus.sendNoteOff(channel, pitch2, 0);
+    note2_played = false;
+  }
+
+  // control value
+  int control_value1 = int(map(smooth_data_sensors_analog[0], 0, 1023, 0, 127)); // smoothed value first sensor analog
+  midi_bus.sendControllerChange(channel, 1, control_value1); // Send a controllerChange
+
+  int control_value2 = int(map(smooth_data_sensors_analog[1], 0, 1023, 0, 127)); // smoothed value second sensor analog
+  midi_bus.sendControllerChange(channel, 2, control_value2); // Send a controllerChange
 
   // IMU
 
