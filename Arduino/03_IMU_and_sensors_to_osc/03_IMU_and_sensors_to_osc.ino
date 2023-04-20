@@ -6,21 +6,21 @@
 // https://github.com/arduino-libraries/Arduino_LSM6DS3
 #include <Arduino_LSM6DS3.h>
 
-// Seeed Grove Ultrasonic Ranger
+// Seeed Grove Ultrasonic Ranger, just if connected! Otherwise deactivate last line with comment!
 // https://wiki.seeedstudio.com/Grove-Ultrasonic_Ranger/
 // https://github.com/Seeed-Studio/Seeed_Arduino_UltrasonicRanger/archive/master.zip
 // https://wiki.seeedstudio.com/Upload_Code/
-#include "Ultrasonic.h"
+// #include "Ultrasonic.h"
 
 // WiFi stuff
-const char* ssid = "maschinenraum";
-const char* pwd = "maschinenraum";
-const IPAddress ip(192, 168, 1, 201);  // IP Arduino microcontroller (change here)
+const char* ssid = "maschinenraum"; // change to your WiFi name
+const char* pwd = "maschinenraum"; // change to your password
+const IPAddress ip(192, 168, 1, 201);  // IP Arduino board (change here)
 const IPAddress gateway(192, 168, 1, 1);
 const IPAddress subnet(255, 255, 255, 0);
 
 // for ArduinoOSC
-const char* host = "192.168.1.102";  // IP of Laptop (change here)
+const char* host = "192.168.1.102";  // IP of PC/Laptop (change here)
 const int recv_port = 9998;
 const int send_port = 9999;
 

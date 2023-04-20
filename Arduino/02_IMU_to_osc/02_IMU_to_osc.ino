@@ -7,14 +7,14 @@
 #include <Arduino_LSM6DS3.h>
 
 // WiFi stuff
-const char* ssid = "maschinenraum";
-const char* pwd = "maschinenraum";
-const IPAddress ip(192, 168, 1, 201);  // IP Arduino microcontroller (change here)
+const char* ssid = "maschinenraum"; // change to your WiFi name
+const char* pwd = "maschinenraum"; // change to your password
+const IPAddress ip(192, 168, 1, 201);  // IP Arduino board (change here)
 const IPAddress gateway(192, 168, 1, 1);
 const IPAddress subnet(255, 255, 255, 0);
 
 // for ArduinoOSC
-const char* host = "192.168.1.102";  // IP of Laptop (change here)
+const char* host = "192.168.1.102";  // IP of PC/Laptop (change here)
 const int recv_port = 9998;
 const int send_port = 9999;
 
