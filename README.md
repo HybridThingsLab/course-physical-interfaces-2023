@@ -12,11 +12,11 @@ HS Augsburg, Prof. Andreas Muxel
 
 # MIDI setup
 * Mac: activate MIDI Port in system settings, https://support.apple.com/de-de/guide/audio-midi-setup/ams1013/mac 
-* PC: install loopMidi: http://www.tobias-erichsen.de/software/loopmidi.html 
+* PC: install loopMidi: http://www.tobias-erichsen.de/software/loopmidi.html, to have a virtual MIDI port (Processing <> Helm)
 
 # Helm  synthesizer 
 * download: https://tytel.org/helm/
-* click on logo for settings
+* click on logo for Audio/MIDI settings
 * set "VEL TRACK" to 100% 
 
 <img width="329" alt="image" src="https://user-images.githubusercontent.com/36045885/233443943-9adf69aa-22de-45bf-a8b2-3b7f00bbc60e.png">
