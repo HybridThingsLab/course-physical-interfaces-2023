@@ -6,7 +6,7 @@ HS Augsburg, Prof. Andreas Muxel
 
 # Seeed Grove System
 * parts available in Prototyping Lab: https://github.com/HybridThingsLab/protobase/wiki/Seeed-Grove-System 
-* Grove Ultrasonic Ranger (tutorial & library), https://wiki.seeedstudio.com/Grove-Ultrasonic_Ranger/, see also "/Arduino/01_sensors_to_osc"
+* Grove Ultrasonic Ranger (tutorial & library), https://wiki.seeedstudio.com/Grove-Ultrasonic_Ranger/, see also code [/Arduino/01_sensors_to_osc](https://github.com/HybridThingsLab/course-physical-interfaces-2023/tree/main/Arduino/01_sensors_to_osc)
 
 # Flex Sensor
 * tutorial: https://learn.sparkfun.com/tutorials/flex-sensor-hookup-guide/all
@@ -21,9 +21,13 @@ HS Augsburg, Prof. Andreas Muxel
 * download: https://tytel.org/helm/
 * click on logo for Audio/MIDI settings
 * set "VEL TRACK" to 100% 
+* right-click on knob and use "Learn MIDI Assignement", see also code [/Processing/sketch_06_midi_set_control](https://github.com/HybridThingsLab/course-physical-interfaces-2023/tree/main/Processing/sketch_06_midi_set_control)
+
+
 
 <img width="329" alt="image" src="https://user-images.githubusercontent.com/36045885/233443943-9adf69aa-22de-45bf-a8b2-3b7f00bbc60e.png">
 <img width="317" alt="image" src="https://user-images.githubusercontent.com/36045885/233444014-e31a2e09-8edb-4c3d-8833-3b683cb04cf4.png">
+<img width="322" alt="image" src="https://user-images.githubusercontent.com/36045885/233783738-6171d349-9771-4d92-b78b-b9d80543e92c.png">
 
 # Tutorials Helm
 * https://steemit.com/music/@buckydurddle/helm-video-tutorials-beginner-s-guide
