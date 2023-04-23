@@ -4,6 +4,13 @@ HS Augsburg, Prof. Andreas Muxel
 # Arduino Nano 33 IoT
 * https://store.arduino.cc/products/arduino-nano-33-iot
 
+![image](https://user-images.githubusercontent.com/36045885/233858861-37784b65-96eb-4d9c-828a-85bdbcf76043.png)
+# Grove Shield for Arduino Nano
+* https://wiki.seeedstudio.com/Grove_Shield_for_Arduino_Nano/
+* to work with Arduino 33 serial boards, please switch the VCC power to 3.3V. If the VCC power supply is switched to 5V, the development board may be damaged!
+
+
+
 # Seeed Grove System
 * parts available in Prototyping Lab: https://github.com/HybridThingsLab/protobase/wiki/Seeed-Grove-System 
 * Grove Ultrasonic Ranger (tutorial & library), https://wiki.seeedstudio.com/Grove-Ultrasonic_Ranger/, see also code [/Arduino/01_sensors_to_osc](https://github.com/HybridThingsLab/course-physical-interfaces-2023/tree/main/Arduino/01_sensors_to_osc)
