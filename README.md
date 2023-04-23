@@ -7,7 +7,7 @@ HS Augsburg, Prof. Andreas Muxel
 # Grove Shield for Arduino Nano
 * https://wiki.seeedstudio.com/Grove_Shield_for_Arduino_Nano/
 * to work with Arduino 33 serial boards, please switch the VCC power to 3.3V. If the VCC power supply is switched to 5V, the development board may be damaged!
-![image](https://user-images.githubusercontent.com/36045885/233858861-37784b65-96eb-4d9c-828a-85bdbcf76043.png)
+![image](https://user-images.githubusercontent.com/36045885/233867107-1c738aad-8702-4763-a5a6-cc8998f8954a.png)
 
 
 
