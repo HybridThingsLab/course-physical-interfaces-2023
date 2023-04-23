@@ -44,7 +44,7 @@ void setup() {
     while (1)
       ;
   }
-  // calritate IMU
+  // calibrate IMU
   calibrateIMU(250, 250);
 
 // WiFi stuff (no timeout setting for WiFi)
