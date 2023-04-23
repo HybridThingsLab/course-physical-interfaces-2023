@@ -18,7 +18,7 @@ const IPAddress gateway(192, 168, 1, 1);
 const IPAddress subnet(255, 255, 255, 0);
 
 // for ArduinoOSC
-const char* host = "192.168.1.102";  // IP of PC/Laptop (change here)
+const char* host = "192.168.1.101";  // IP of PC/Laptop (change here)
 const int recv_port = 9998;
 const int send_port = 9999;
 
