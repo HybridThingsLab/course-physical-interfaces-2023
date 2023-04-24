@@ -39,14 +39,14 @@ long lastInterval;
 // sensors
 
 // analog
-int analogPin1 = 0;  // analog sensor 1 on PIN A5
+int analogPin1 = 0;  // analog sensor 1 on PIN A0
 int analogPin2 = 6;  // analog sensor 2 on PIN A6
 int analogValue1 = 0;
 int analogValue2 = 0;
 
 // digital
 int digitalPin1 = 2;  // digital sensor 1 on PIN D2
-int digitalPin2 = 4;  // digital sensor 2 on PIN D2
+int digitalPin2 = 4;  // digital sensor 2 on PIN D4
 int digitalValue1 = 0;
 int digitalValue2 = 0;
 
