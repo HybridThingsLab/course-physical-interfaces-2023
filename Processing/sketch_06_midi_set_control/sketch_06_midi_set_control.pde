@@ -32,7 +32,7 @@ void draw() {
   // to set control value in Helm with "Learn MIDI Assignement" change control number
   
   // control 1
-  int control_number = 1; // change here!
+  int control_number = 2; // change here!
   int control = int(map(mouseX, 0, width, 0, 127));
   midi_bus.sendControllerChange(channel, control_number, control); // Send a controllerChange
   
