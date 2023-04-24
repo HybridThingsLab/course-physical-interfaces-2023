@@ -3,6 +3,8 @@ HS Augsburg, Prof. Andreas Muxel
 
 # Arduino Nano 33 IoT
 * https://store.arduino.cc/products/arduino-nano-33-iot
+* restart board > press white button on board once
+* hard reset (if board is visible in Arduino IDE) > double press white button on board
 
 # Grove Shield for Arduino Nano
 * https://wiki.seeedstudio.com/Grove_Shield_for_Arduino_Nano/
