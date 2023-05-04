@@ -42,7 +42,6 @@ void setup() {
 
   // remote device (Arduino Nano), where data is send to
   remoteLocation = new NetAddress("192.168.0.201", send_port);
-  // remoteLocation = new NetAddress("192.168.1.201", send_port);
 
   // listen to different messages
   oscP5.plug(this, "sensors_analog", "/sensors_analog");
