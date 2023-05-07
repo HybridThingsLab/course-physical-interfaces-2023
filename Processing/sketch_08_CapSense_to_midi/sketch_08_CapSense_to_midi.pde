@@ -29,7 +29,7 @@ Boolean note2_played = false;
 // two capactive sensors
 float[] data_sensors_capacitive = new float[2]; // sensor data come as integer and is converted to float when received
 float[] smooth_data_sensors_capacitive = new float[2];
-float smooth_factor = 0.9; // change here
+float smooth_factor = 0.5; // change here
 float threshold_trigger_note = 1500.0; // values above this threshold will trigger a note
 
 
