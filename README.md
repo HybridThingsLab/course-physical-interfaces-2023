@@ -15,7 +15,7 @@ HS Augsburg, Prof. Andreas Muxel
 
 # Seeed Grove System
 * parts available in Prototyping Lab: https://github.com/HybridThingsLab/protobase/wiki/Seeed-Grove-System 
-* Grove Ultrasonic Ranger (tutorial & library), https://wiki.seeedstudio.com/Grove-Ultrasonic_Ranger/, see also code [/Arduino/01_sensors_to_osc](https://github.com/HybridThingsLab/course-physical-interfaces-2023/tree/main/Arduino/01_sensors_to_osc)
+* Grove Ultrasonic Ranger (tutorial & library), https://wiki.seeedstudio.com/Grove-Ultrasonic_Ranger/, see also code example [/Arduino/01_sensors_to_osc](https://github.com/HybridThingsLab/course-physical-interfaces-2023/tree/main/Arduino/01_sensors_to_osc)
 
 # Capacitive Sensor
 * Capacitive Sensor Library, https://github.com/PaulStoffregen/CapacitiveSensor
@@ -23,6 +23,7 @@ HS Augsburg, Prof. Andreas Muxel
 * if you want to connect sensor to digital pin 2 and 3, use "D2" connection on Grove Shield for Arduino Nano
 * if you want to connect another sensor to digital pin 4 and 5, use "D4" connection on Grove Shield for Arduino Nano
 * never touch metal, foil etc. directly, always use another material in between (for example foam noodle etc.) for best results!
+* see also code examples [/Arduino/04_CapSense_to_osc](https://github.com/HybridThingsLab/course-physical-interfaces-2023/tree/main/Arduino/04_CapSense_to_osc) and [/Processing/sketch_08_CapSense_to_midi](https://github.com/HybridThingsLab/course-physical-interfaces-2023/tree/main/Processing/sketch_08_CapSense_to_midi)
 ![capSensing](https://user-images.githubusercontent.com/36045885/236692926-c72d2e8b-fb9c-44ae-b9ac-d40cef121c36.jpg)
 
 # MIDI setup
