@@ -17,6 +17,10 @@ HS Augsburg, Prof. Andreas Muxel
 * parts available in Prototyping Lab: https://github.com/HybridThingsLab/protobase/wiki/Seeed-Grove-System 
 * Grove Ultrasonic Ranger (tutorial & library), https://wiki.seeedstudio.com/Grove-Ultrasonic_Ranger/, see also code [/Arduino/01_sensors_to_osc](https://github.com/HybridThingsLab/course-physical-interfaces-2023/tree/main/Arduino/01_sensors_to_osc)
 
+# Capacitive Sensor
+* Capacitive Sensor Library, https://github.com/PaulStoffregen/CapacitiveSensor
+* further details principle capacitive sensing: https://playground.arduino.cc/Main/CapacitiveSensor/
+![capSensing](https://user-images.githubusercontent.com/36045885/236692926-c72d2e8b-fb9c-44ae-b9ac-d40cef121c36.jpg)
 
 # MIDI setup
 * Mac: activate MIDI Port in system settings, https://support.apple.com/de-de/guide/audio-midi-setup/ams1013/mac 
