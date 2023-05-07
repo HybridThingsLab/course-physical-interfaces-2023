@@ -20,6 +20,8 @@ HS Augsburg, Prof. Andreas Muxel
 # Capacitive Sensor
 * Capacitive Sensor Library, https://github.com/PaulStoffregen/CapacitiveSensor
 * further details principle capacitive sensing: https://playground.arduino.cc/Main/CapacitiveSensor/
+* if you want to connect sensor to digital pin 2 and 3, use "D2" connection on Grove Shield for Arduino Nano
+* if you want to connect another sensor to digital pin 4 and 5, use "D4" connection on Grove Shield for Arduino Nano
 ![capSensing](https://user-images.githubusercontent.com/36045885/236692926-c72d2e8b-fb9c-44ae-b9ac-d40cef121c36.jpg)
 
 # MIDI setup
