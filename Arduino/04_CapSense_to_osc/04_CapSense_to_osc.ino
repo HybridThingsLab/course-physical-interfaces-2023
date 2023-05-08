@@ -20,8 +20,8 @@ const int recv_port = 9998;
 const int send_port = 9999;
 
 // capcative sensors
-CapacitiveSensor cs_1 = CapacitiveSensor(2, 3);  // 3.7 mega-ohhm Resistor pin 2+3, 3 is sensor pin (where wire to foil is connected)
-CapacitiveSensor cs_2 = CapacitiveSensor(4, 5);  // 3.7 mega-ohhm Resistor pin 4+5, 5 is sensor pin (where wire to foil is connected)
+CapacitiveSensor cs_1 = CapacitiveSensor(2, 3);  // 3.0 mega-ohhm Resistor pin 2+3, 3 is sensor pin (where wire to foil is connected)
+CapacitiveSensor cs_2 = CapacitiveSensor(4, 5);  // 3.0 mega-ohhm Resistor pin 4+5, 5 is sensor pin (where wire to foil is connected)
 int capacitiveValue1 = 0;
 int capacitiveValue2 = 0;
 
