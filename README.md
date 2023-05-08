@@ -25,7 +25,7 @@ HS Augsburg, Prof. Andreas Muxel
 * never touch metal, foil etc. directly, always use another material in between (for example foam noodle etc.) for best results!
 * see also code examples [/Arduino/04_CapSense_to_osc](https://github.com/HybridThingsLab/course-physical-interfaces-2023/tree/main/Arduino/04_CapSense_to_osc) and [/Processing/sketch_08_CapSense_to_midi](https://github.com/HybridThingsLab/course-physical-interfaces-2023/tree/main/Processing/sketch_08_CapSense_to_midi)
 
-![capSensing](https://user-images.githubusercontent.com/36045885/236692926-c72d2e8b-fb9c-44ae-b9ac-d40cef121c36.jpg)
+![capSensing](https://user-images.githubusercontent.com/36045885/236751146-33e90607-4916-4dbc-9162-0291caf5f7b0.jpg)
 
 # MIDI setup
 * Mac: activate MIDI Port in system settings, https://support.apple.com/de-de/guide/audio-midi-setup/ams1013/mac 
