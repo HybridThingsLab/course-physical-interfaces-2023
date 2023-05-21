@@ -19,9 +19,9 @@ const char* host = "192.168.0.100";  // IP of PC/Laptop (change here)
 const int recv_port = 9998;
 const int send_port = 9999;
 
-// capcative sensors
+// capcative sensors (uncomment second sensor if used)
 CapacitiveSensor cs_1 = CapacitiveSensor(2, 3);  // 3.0 mega-ohhm Resistor pin 2+3, 3 is sensor pin (where wire to foil is connected)
-CapacitiveSensor cs_2 = CapacitiveSensor(4, 5);  // 3.0 mega-ohhm Resistor pin 4+5, 5 is sensor pin (where wire to foil is connected)
+//CapacitiveSensor cs_2 = CapacitiveSensor(4, 5);  // 3.0 mega-ohhm Resistor pin 4+5, 5 is sensor pin (where wire to foil is connected)
 int capacitiveValue1 = 0;
 int capacitiveValue2 = 0;
 
@@ -66,7 +66,7 @@ void loop() {
 
   // capacitve sensing (byte samples)
   capacitiveValue1 = cs_1.capacitiveSensor(30);
-  capacitiveValue2 = cs_2.capacitiveSensor(30);
+  // capacitiveValue2 = cs_2.capacitiveSensor(30); // uncomment if second capacitive sensor is used
 
   // show values via serial monitor (debugging) > uncomment
   // Serial.print(capacitiveValue1);
