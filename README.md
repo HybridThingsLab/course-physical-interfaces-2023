@@ -12,7 +12,6 @@ HS Augsburg, Prof. Andreas Muxel
 ![image](https://user-images.githubusercontent.com/36045885/233867107-1c738aad-8702-4763-a5a6-cc8998f8954a.png)
 
 
-
 # Seeed Grove System
 * parts available in Prototyping Lab: https://github.com/HybridThingsLab/protobase/wiki/Seeed-Grove-System 
 * Grove Ultrasonic Ranger (tutorial & library), https://wiki.seeedstudio.com/Grove-Ultrasonic_Ranger/, see also code example [/Arduino/01_sensors_to_osc](https://github.com/HybridThingsLab/course-physical-interfaces-2023/tree/main/Arduino/01_sensors_to_osc)
@@ -26,6 +25,16 @@ HS Augsburg, Prof. Andreas Muxel
 * see also code examples [/Arduino/04_CapSense_to_osc](https://github.com/HybridThingsLab/course-physical-interfaces-2023/tree/main/Arduino/04_CapSense_to_osc) and [/Processing/sketch_08_CapSense_to_midi](https://github.com/HybridThingsLab/course-physical-interfaces-2023/tree/main/Processing/sketch_08_CapSense_to_midi)
 
 ![capSensing](https://user-images.githubusercontent.com/36045885/236751146-33e90607-4916-4dbc-9162-0291caf5f7b0.jpg)
+
+# Flex and Pressure Sensor
+| ![wiring](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/82681185-3288-4403-a6d1-fddf15f52917) | ![clip01](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/4c281d3f-c028-4b4e-8793-b31c3a66c166) | ![clip02](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/b947ce15-ebb4-4036-a98a-16d97c1e88e9) |
+|---|---|---|
+| ![pressure01](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/8792f196-a729-487b-86f4-b6078fc2fbb4) | ![pressure02](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/b58e5306-cce4-42df-bbca-29d6b929752e) | ![pressure03](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/16d32858-c230-4688-ae48-468364c0cb74) |
+
+
+# Soldering
+![soldering](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/6ecc60bc-06fb-47f2-a572-0db1c1ae183c)
+* check tutorial Wiki Prototyping Lab, https://github.com/HybridThingsLab/protobase/wiki/Soldering
 
 # MIDI setup
 * Mac: activate MIDI Port in system settings, https://support.apple.com/de-de/guide/audio-midi-setup/ams1013/mac 
