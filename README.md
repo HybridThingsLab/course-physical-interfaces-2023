@@ -29,7 +29,9 @@ HS Augsburg, Prof. Andreas Muxel
 # Flex and Pressure Sensor
 | ![wiring](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/a60fc7d2-ecef-4757-a983-be780e642754) | ![clip01](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/4c281d3f-c028-4b4e-8793-b31c3a66c166) | ![clip02](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/b947ce15-ebb4-4036-a98a-16d97c1e88e9) |
 |---|---|---|
+| wiring | step 1 | step 2 |
 | ![pressure01](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/8792f196-a729-487b-86f4-b6078fc2fbb4) | ![pressure02](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/b58e5306-cce4-42df-bbca-29d6b929752e) | ![pressure03](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/16d32858-c230-4688-ae48-468364c0cb74) |
+| step 3 | step 4 | step 5 |
 * measure value on analog input (for example A0)
 
 
