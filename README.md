@@ -47,6 +47,9 @@ HS Augsburg, Prof. Andreas Muxel
 |![switch01](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/953e2fd8-83e7-46a0-af5f-b7901c71428d)|![switch02](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/2dacc126-be69-4e27-b02f-d8704209b379)|![switch03](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/ec9d3e76-7a5f-4042-a5b3-f6728e995a64)|![switch04](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/1d0a4f69-bf0e-4c5f-8b70-d76f43bed4e9)|![switch05](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/54c6b623-554f-444c-ae59-d7ee16ee5877)|
 |---|---|---|---|---|
 | step 1 | step 2 | step 3| step 4 | step 5 |
+|![switch06](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/42f3b119-f219-4349-a21a-ec91426a7cee)|![switch07](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/72dd1b46-eb9e-4a2c-a11e-d3849dc87d81)|![switch08](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/b5b3b121-c252-4ae0-942b-b9d23678770b)|![switch09](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/b15cca0b-0fd2-427e-918c-65fea60c9591)|![switch10](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/ccbad100-c3f5-4192-8130-074a1d2a4fdc)|
+|---|---|---|---|---|
+| step 6 | step 7 | step 8| step 9 | step 10 |
 
 
 
