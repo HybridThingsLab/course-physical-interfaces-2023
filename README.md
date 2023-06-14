@@ -39,6 +39,12 @@ HS Augsburg, Prof. Andreas Muxel
 ![soldering](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/6ecc60bc-06fb-47f2-a572-0db1c1ae183c)
 * check tutorial Wiki Prototyping Lab, https://github.com/HybridThingsLab/protobase/wiki/Soldering
 
+# Direct Connection to Arduino Nano (no Grove Shield)
+** Pinout Diagram **
+![image](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/47305ca7-2adc-41bd-b3d8-50383059df04)
+
+
+
 # MIDI setup
 * Mac: activate MIDI Port in system settings, https://support.apple.com/de-de/guide/audio-midi-setup/ams1013/mac 
 * PC: install loopMidi: http://www.tobias-erichsen.de/software/loopmidi.html, to have a virtual MIDI port (Processing <> Helm)
