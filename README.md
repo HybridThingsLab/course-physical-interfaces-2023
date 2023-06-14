@@ -39,11 +39,10 @@ HS Augsburg, Prof. Andreas Muxel
 ![soldering](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/6ecc60bc-06fb-47f2-a572-0db1c1ae183c)
 * check tutorial Wiki Prototyping Lab, https://github.com/HybridThingsLab/protobase/wiki/Soldering
 
-# Direct Connection to Arduino Nano (no Grove Shield)
-**Pinout Diagram**
+# Pinout Diagram
 ![image](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/47305ca7-2adc-41bd-b3d8-50383059df04)
 
-**Switch**
+# Switch
 |![switch01](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/953e2fd8-83e7-46a0-af5f-b7901c71428d)|![switch02](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/2dacc126-be69-4e27-b02f-d8704209b379)|![switch03](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/ec9d3e76-7a5f-4042-a5b3-f6728e995a64)|![switch04](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/1d0a4f69-bf0e-4c5f-8b70-d76f43bed4e9)|![switch05](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/54c6b623-554f-444c-ae59-d7ee16ee5877)|
 |---|---|---|---|---|
 | step 1 | step 2 | step 3| step 4 | step 5 |
@@ -54,6 +53,19 @@ HS Augsburg, Prof. Andreas Muxel
 |![switch16](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/0e8a8a6b-c47c-43eb-8ba9-3694d88a01f2)|![switch17](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/dd33ae66-0e45-42ee-8cf0-fe83f07191cf)|![switch18](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/9511e6a6-84e2-495a-9524-1427fe5f6188)|![switch19](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/23bad972-2453-4f2e-93d4-51fbfd775b1b)|-|
 | step 16 | step 17 | step 18| step 19 | - |
 
+* step 1: remove thin lines from 3D Printer
+* step 2-4: snap switch gently to case
+* step 5: prepare cables and shrink tubes
+* step 6: attach cable to connector before soldering, otherwise it get to hot
+* step 7: don't forget to add shrink tube to wire before soldering
+* step 8-9: solder red and green cable
+* step 10: heat up shrink tubes
+* step 11-13: solder green and black cable
+* step 14: heat up shrink tubes
+* step 15-16: put cables and Arduino Nano 33 IoT into case(tube)
+* step17: connect black cable to GND and red cable to VIN Pin of board
+* step 18: scew cover with switch on case(tube)
+* step 19: finished
 
 
 
