@@ -49,6 +49,12 @@ HS Augsburg, Prof. Andreas Muxel
 | step 1 | step 2 | step 3| step 4 | step 5 |
 |![switch06](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/42f3b119-f219-4349-a21a-ec91426a7cee)|![switch07](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/72dd1b46-eb9e-4a2c-a11e-d3849dc87d81)|![switch08](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/b5b3b121-c252-4ae0-942b-b9d23678770b)|![switch09](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/b15cca0b-0fd2-427e-918c-65fea60c9591)|![switch10](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/ccbad100-c3f5-4192-8130-074a1d2a4fdc)|
 | step 6 | step 7 | step 8| step 9 | step 10 |
+|![switch11](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/81bedeff-c9f7-4ebb-b24d-bdf00ac7a262)|![switch12](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/be052a79-5e22-4b96-a9d6-3ab006d03ec3)|![switch13](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/eeca4b46-85df-47f8-80f9-a35612032502)|![switch14](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/527f549d-8ca3-4d7e-af36-a084d9d0da5b)|![switch15](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/34fe1ef2-7d8e-40c3-8429-c361ee48bbe4)|
+| step 11 | step 12 | step 13| step 14 | step 15 |
+|![switch16](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/0e8a8a6b-c47c-43eb-8ba9-3694d88a01f2)|![switch17](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/dd33ae66-0e45-42ee-8cf0-fe83f07191cf)|![switch18](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/9511e6a6-84e2-495a-9524-1427fe5f6188)|![switch19](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/23bad972-2453-4f2e-93d4-51fbfd775b1b)|-|
+| step 16 | step 17 | step 18| step 19 | - |
+
+
 
 
 
