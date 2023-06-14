@@ -48,7 +48,6 @@ HS Augsburg, Prof. Andreas Muxel
 |---|---|---|---|---|
 | step 1 | step 2 | step 3| step 4 | step 5 |
 |![switch06](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/42f3b119-f219-4349-a21a-ec91426a7cee)|![switch07](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/72dd1b46-eb9e-4a2c-a11e-d3849dc87d81)|![switch08](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/b5b3b121-c252-4ae0-942b-b9d23678770b)|![switch09](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/b15cca0b-0fd2-427e-918c-65fea60c9591)|![switch10](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/ccbad100-c3f5-4192-8130-074a1d2a4fdc)|
-|---|---|---|---|---|
 | step 6 | step 7 | step 8| step 9 | step 10 |
 
 
