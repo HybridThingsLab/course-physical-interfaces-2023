@@ -40,7 +40,7 @@ HS Augsburg, Prof. Andreas Muxel
 * check tutorial Wiki Prototyping Lab, https://github.com/HybridThingsLab/protobase/wiki/Soldering
 
 # Direct Connection to Arduino Nano (no Grove Shield)
-** Pinout Diagram **
+**Pinout Diagram**
 ![image](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/47305ca7-2adc-41bd-b3d8-50383059df04)
 
 
