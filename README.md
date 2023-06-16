@@ -2,6 +2,7 @@
 HS Augsburg, Prof. Andreas Muxel 
 
 # Arduino Nano 33 IoT
+![image](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/47305ca7-2adc-41bd-b3d8-50383059df04)
 * https://store.arduino.cc/products/arduino-nano-33-iot
 * restart board > press white button on board once
 * hard reset (if board is not visible in Arduino IDE) > double press white button on board
@@ -39,8 +40,6 @@ HS Augsburg, Prof. Andreas Muxel
 ![soldering](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/6ecc60bc-06fb-47f2-a572-0db1c1ae183c)
 * check tutorial Wiki Prototyping Lab, https://github.com/HybridThingsLab/protobase/wiki/Soldering
 
-# Pinout Diagram
-![image](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/47305ca7-2adc-41bd-b3d8-50383059df04)
 
 # Switch
 |![switch01](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/953e2fd8-83e7-46a0-af5f-b7901c71428d)|![switch02](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/2dacc126-be69-4e27-b02f-d8704209b379)|![switch03](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/ec9d3e76-7a5f-4042-a5b3-f6728e995a64)|![switch04](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/1d0a4f69-bf0e-4c5f-8b70-d76f43bed4e9)|![switch05](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/54c6b623-554f-444c-ae59-d7ee16ee5877)|
