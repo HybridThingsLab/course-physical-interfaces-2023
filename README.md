@@ -67,7 +67,10 @@ HS Augsburg, Prof. Andreas Muxel
 * step 19: finished
 
 
-
+# Switch
+![multiple_sensors](https://github.com/HybridThingsLab/course-physical-interfaces-2023/assets/36045885/3e2dd406-235a-4669-913e-5d6290c0d541)
+* GND and 3.3V of mulitple sensors can be shared when wiring
+* the yellow cable should be wired individually to port need (p.ex. A0, A1...)
 
 # MIDI setup
 * Mac: activate MIDI Port in system settings, https://support.apple.com/de-de/guide/audio-midi-setup/ams1013/mac 
