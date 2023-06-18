@@ -70,8 +70,6 @@ void setup() {
     while (1)
       ;
   }
-  // calibrate IMU
-  calibrateIMU(250, 250);
 
 // WiFi stuff (no timeout setting for WiFi)
 #ifdef ESP_PLATFORM
@@ -102,6 +100,10 @@ void setup() {
 
   OscWiFi.publish(host, send_port, "/distance", distance)
     ->setIntervalMsec(10.f);
+
+  // calibrate IMU
+  calibrateIMU(250, 250);
+
 }
 
 

@@ -7,8 +7,8 @@
 #include <Arduino_LSM6DS3.h>
 
 // WiFi stuff
-const char* ssid = "maschinenraum"; // change to your WiFi name
-const char* pwd = "maschinenraum"; // change to your password
+const char* ssid = "maschinenraum";    // change to your WiFi name
+const char* pwd = "maschinenraum";     // change to your password
 const IPAddress ip(192, 168, 0, 201);  // IP Arduino board (change here)
 const IPAddress gateway(192, 168, 0, 1);
 const IPAddress subnet(255, 255, 255, 0);
@@ -44,8 +44,6 @@ void setup() {
     while (1)
       ;
   }
-  // calibrate IMU
-  calibrateIMU(250, 250);
 
 // WiFi stuff (no timeout setting for WiFi)
 #ifdef ESP_PLATFORM
@@ -66,6 +64,9 @@ void setup() {
   // send OSC data
   OscWiFi.publish(host, send_port, "/imu", complementaryRoll, complementaryPitch, complementaryYaw)
     ->setIntervalMsec(10.f);
+
+  // calibrate IMU
+  calibrateIMU(250, 250);
 }
 
 
